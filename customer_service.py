@@ -8,6 +8,7 @@ Pattern: Multi-Agent & Multi-Turn
 Original: https://github.com/openai/openai-agents-python/blob/main/examples/customer_service/main.py
 """
 
+# flake8: noqa: E501
 from __future__ import annotations
 
 import asyncio
@@ -27,7 +28,6 @@ from agents import (
     function_tool,
     handoff,
 )
-
 
 # ============================================================================
 # PROMPTS
